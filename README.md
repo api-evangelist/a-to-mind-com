@@ -66,7 +66,7 @@
 
 Verse by A-to-Mind is an AI‑powered personal assistant platform that lets users ask for anything and get instant results – from clocks and notes to maps, weather, translations, calculations, or detailed pages on any topic. It operates without requiring an account, offering a seamless, on‑demand knowledge and productivity service.
 
-**Areas:** AI · Productivity · PersonalAssistant · KnowledgeBase · Automation
+**Areas:** Artificial Intelligence · Productivity · Personal Assistant · Knowledge Base · Automation
 
 ## A-to-Mind on APIs.io
 
@@ -80,12 +80,43 @@ Everything profiled for A-to-Mind is published on APIs.io rather than in this re
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-#### Security (2)
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [a-to-mind-com-mcp.yml](https://apis.io/servers/a-to-mind-com/a-to-mind-com-mcp-yml/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [A-to-Mind Review Api Certification Overlay](https://apis.io/overlays/a-to-mind-com/a-to-mind-com-review-api-certification-overlay/)
+
+#### Security (3)
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [A To Mind Com Domain Security](https://apis.io/security/a-to-mind-com/a-to-mind-com-domain-security/)
-- [A To Mind Com Vulnerability Disclosure](https://apis.io/security/a-to-mind-com/a-to-mind-com-vulnerability-disclosure/)
+- [A-to-Mind Authentication](https://apis.io/security/a-to-mind-com/a-to-mind-com-authentication/)
+- [A-to-Mind Domain Security](https://apis.io/security/a-to-mind-com/a-to-mind-com-domain-security/)
+- [A-to-Mind Vulnerability Disclosure](https://apis.io/security/a-to-mind-com/a-to-mind-com-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [A-to-Mind Scopes](https://apis.io/scopes/a-to-mind-com/a-to-mind-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [A-to-Mind Plans Pricing](https://apis.io/plans/a-to-mind-com/a-to-mind-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [A-to-Mind Rate Limits](https://apis.io/rate-limits/a-to-mind-com/a-to-mind-com-rate-limits/)
 
 ## Where to find this API
 
@@ -96,18 +127,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 12.9** — emerging · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 15.6** — emerging · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 68.3 |
-| Contract quality | 0.0 |
-| Contract governance | 16.4 |
-| Operational transparency | 10.5 |
+| Discoverability | 85.0 |
+| Contract quality | 6.0 |
+| Contract governance | 4.5 |
+| Operational transparency | 9.5 |
 | Developer ergonomics | 0.0 |
-| Access clarity | 10.5 |
+| Access clarity | 12.8 |
 
-**Agent readiness 6.0** — agent-aware
+**Agent readiness 11.8** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -119,9 +150,9 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Idempotency | — |
 | Error Semantics | — |
 | OpenAPI Examples | — |
-| Rate Limit Signal | — |
+| Rate Limit Signal | documented (partial credit) |
 | Event Surface Described | — |
-| Agent Skills | — |
+| Agent Skills | unknown |
 | Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | — |
@@ -132,8 +163,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 19.1** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/a-to-mind-com/](https://apis.io/providers/a-to-mind-com/).
 
